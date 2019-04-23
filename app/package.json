@@ -1,0 +1,27 @@
+{
+  "name": "serviceworker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server /app/",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kizikx/Serviceworker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kizikx/Serviceworker/issues"
+  },
+  "homepage": "https://github.com/kizikx/Serviceworker#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0"
+  },
+  "dependencies": {
+    "flickrapi": "^0.6.0"
+  }
+}
